@@ -20,3 +20,9 @@ function change() {
         return elem.value = "close";
     }
 }
+
+function showdesc() {
+    while (condition) {
+        
+    }
+}

@@ -6,6 +6,7 @@ body{
   color: rgb(185, 185, 185);
   font-size: 18px;
   line-height: 25px;
+  
 }
 .container{
   background-color: rgb(36,36,39);
@@ -14,6 +15,7 @@ body{
   margin-bottom: 0%;
   padding-top: 10px;
   padding-bottom: 10%;
+  
 }
 .H1{
   background-image: url("images/headerbackground.jpg");
@@ -146,4 +148,62 @@ hr{
   background-color: rgb(128, 128, 128);
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.timeline{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 5% auto;
+}
+
+.description {
+  width: 0;
+  height: 0;
+  overflow:hidden;
+}
+
+.bigb{
+  background-color: rgb(66, 66, 66);
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  margin-top: 50px;
+  color: rgb(185, 185, 185);
+  font-family: 'Trebuchet MS';
+  text-transform: uppercase;
+  cursor:pointer;
+  border: none;
+}
+.bigb:hover{
+  box-shadow:
+    0 0 15px 7px #fff,
+    0 0 25px 15px #f0f, 
+    0 0 35px 22px #0ff; 
+  background-color: rgb(128, 128, 128);
+  color: #fff;
+}
+
+.footer{
+  grid-area: l-f;
+  display: grid;
+  justify-items: center;
+  row-gap: 40px;
+  padding: 30px 0 60px;
+  background-color: rgb(33, 28, 58);
+}
+
+ul{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  cursor: pointer;
+  list-style: none;
 }
