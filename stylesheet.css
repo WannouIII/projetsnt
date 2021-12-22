@@ -2,6 +2,7 @@ body{
   background-color: rgb(54, 54, 54);
   margin: 0;
   text-align: center;
+  justify-content: center;
   font-family: 'Trebuchet MS', sans-serif;
   color: rgb(185, 185, 185);
   font-size: 18px;
@@ -14,8 +15,7 @@ body{
   margin-left: 15%;
   margin-bottom: 0%;
   padding-top: 10px;
-  padding-bottom: 10%;
-  
+  padding-bottom: 30px;
 }
 .H1{
   background-image: url("images/headerbackground.jpg");
@@ -27,7 +27,7 @@ body{
   padding: 15px;
 }
 .navbar{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(27, 27, 27);
   padding: 12px;
   color: white;
   text-decoration: none;
@@ -83,14 +83,12 @@ body{
   .sidenav a {font-size: 18px;}
 }
 
-.center
-{
+.center{
  text-align: center;
  list-style-position: inside;
  
 }
-ol.center li
-{
+ol.center li{
  text-align: left;
  margin-left: 40%;
  list-style: circle;
@@ -132,8 +130,7 @@ a:hover .middle{
 }
 
 #galery{
-  height: 350px;
-  overflow: hidden;
+  display: none;
 }
 
 hr{
@@ -148,19 +145,6 @@ hr{
   background-color: rgb(128, 128, 128);
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.timeline{
-  display: flex;
-  flex-direction: column;
-  width: 50vw;
-  margin: 5% auto;
-}
-
-.description {
-  width: 0;
-  height: 0;
-  overflow:hidden;
 }
 
 .bigb{
@@ -178,9 +162,7 @@ hr{
 }
 .bigb:hover{
   box-shadow:
-    0 0 15px 7px #fff,
-    0 0 25px 15px #f0f, 
-    0 0 35px 22px #0ff; 
+    0 0 15px 7px #fff;
   background-color: rgb(128, 128, 128);
   color: #fff;
 }
@@ -190,8 +172,13 @@ hr{
   display: grid;
   justify-items: center;
   row-gap: 40px;
-  padding: 30px 0 60px;
-  background-color: rgb(33, 28, 58);
+  padding: 15px 0 15px;
+  background-color: rgb(27, 27, 27);
+  bottom: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-bottom: 0;
+  
 }
 
 ul{
@@ -202,8 +189,57 @@ ul{
   padding-inline-start: 40px;
 }
 
-li {
-  display: list-item;
+ul li{
+  display: inline;
   cursor: pointer;
   list-style: none;
+  padding-right: 20px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+#smp{
+  font-size: 75%;
+}
+
+.timeline{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 5% auto;
+}
+
+.description {
+  
+  display: none;
+}
+
+.visible:hover + .description{
+  display: block;
+}
+
+.stamp{
+  border: solid;
+  border-radius: 15px;
+  background-color: rgb(49, 49, 49);
+}
+
+.visible:hover{
+  border: solid;
+  border-radius: 10px;
+}
+
+.visible{
+  position: static;
+  
+}
+
+.vl{
+  border-left:dashed;
+  height: 100px;
+  left: 50%;
+  margin-left: 50%;
+  top: 0;
 }
