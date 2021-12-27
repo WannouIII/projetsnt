@@ -284,15 +284,31 @@ ul li{
 }
 
 .pic{
-  width: 450px;
+ height: 200px;
 }
 
 .sideBySide{
   margin-left: 40px;
   margin-right: 40px;
   line-height: 25px;
+  font-size: 15px;
 }
 
 #utilisationList a{
   color: #818181;
+}
+
+.sideBySide p{
+  text-align: justify;
+  font-size: 15px;
+  line-height: 25px;
+  padding-top: 0px;
+  border-top: 0px;
+  margin-top: 0px;
+}
+
+.sideBySide table tr td p{
+  margin-right: 15px;
+  margin-bottom: -30px;
+  
 }
