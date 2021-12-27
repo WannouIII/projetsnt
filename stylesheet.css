@@ -16,6 +16,8 @@ body{
   margin-bottom: 0%;
   padding-top: 10px;
   padding-bottom: 30px;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 .H1{
   background-image: url("images/headerbackground.jpg");
@@ -242,4 +244,55 @@ ul li{
   left: 50%;
   margin-left: 50%;
   top: 0;
+}
+
+#login{
+  border: solid;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: 0%;
+  padding-bottom: 3%;
+}
+
+#login h5{
+  font-size: 20px;
+}
+
+#login p a{
+  color: #fff;
+}
+
+#login input{
+  border: none;
+  background-color: rgb(185, 185, 185);
+}
+#login input::placeholder{
+  color: black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+#avertissement{
+  font-size: 15px;
+}
+
+#utilisationList{
+  padding-right: 45%;
+  padding-left: 45%;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.pic{
+  width: 450px;
+}
+
+.sideBySide{
+  margin-left: 40px;
+  margin-right: 40px;
+  line-height: 25px;
+}
+
+#utilisationList a{
+  color: #818181;
 }
