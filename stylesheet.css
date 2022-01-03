@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(54, 54, 54);
+  background-image: linear-gradient(rgb(10,10,10), rgb(54, 54, 54));
   margin: 0;
   text-align: center;
   justify-content: center;
@@ -22,7 +22,7 @@ body{
 .H1{
   background-image: url("images/headerbackground.jpg");
   background-size:cover;
-  background-position: static;
+  background-position: absolute;
   line-height: 50px;
   color: white;
   font-size: 25px;
@@ -164,7 +164,7 @@ hr{
 }
 .bigb:hover{
   box-shadow:
-    0 0 15px 7px #fff;
+    0 0 4px 3px #fff;
   background-color: rgb(128, 128, 128);
   color: #fff;
 }
@@ -239,7 +239,7 @@ ul li{
 }
 
 .vl{
-  border-left:dashed;
+  border-left:dashed 2px;
   height: 100px;
   left: 50%;
   margin-left: 50%;
@@ -252,6 +252,7 @@ ul li{
   margin-right: 450px;
   margin-top: 0%;
   padding-bottom: 3%;
+  line-height: 35px;
 }
 
 #login h5{
@@ -311,4 +312,89 @@ ul li{
   margin-right: 15px;
   margin-bottom: -30px;
   
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 5s linear infinite;
+  -moz-animation: rotating 5s linear infinite;
+  -ms-animation: rotating 5s linear infinite;
+  -o-animation: rotating 5s linear infinite;
+  animation: rotating 5s linear infinite;
+}
+
+#subs{
+  color: white;
+}
+
+#nacc{
+  border: solid;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: 0%;
+  padding-bottom: 3%;
+  line-height: 35px;
+}
+#nacc h5{
+  font-size: 20px;
+}
+
+#nacc p a{
+  color: #fff;
+}
+
+#nacc input{
+  border: none;
+  background-color: rgb(185, 185, 185);
+}
+#nacc input::placeholder{
+  color: black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.titre{
+  text-align: left;
+}
+
+.container a{
+  color: #fff;
+}
+
+.contenu {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.def {
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 0%;
+  cursor: pointer;
 }
