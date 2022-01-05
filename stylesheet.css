@@ -183,7 +183,7 @@ hr{
   
 }
 
-ul{
+#logo{
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -191,7 +191,7 @@ ul{
   padding-inline-start: 40px;
 }
 
-ul li{
+#logo .logou{
   display: inline;
   cursor: pointer;
   list-style: none;
@@ -381,6 +381,7 @@ ul li{
 
 .titre{
   text-align: left;
+  color: rgb(211, 211, 211);
 }
 
 .container a{
@@ -397,4 +398,12 @@ ul li{
   padding-right: 20%;
   height: 0%;
   cursor: pointer;
+}
+
+.sources{ 
+  list-style: none;
+}
+
+.endcredit{
+  width: 250px;
 }
