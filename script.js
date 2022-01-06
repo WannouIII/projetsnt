@@ -20,3 +20,4 @@ function change() {
         return elem.value = "close";
     }
 }
+

@@ -406,4 +406,30 @@ hr{
 
 .endcredit{
   width: 250px;
+  filter: invert(0%);
+}
+
+.endcredit:hover{
+  filter: invert(100%);
+}
+
+#endingmeme{
+  height: 380px;
+  padding-top: 20px;
+}
+
+#end1{
+  font-size: 20px;
+}
+
+#end2{
+  font-size: 15px;
+}
+
+#cons{
+  color: rgb(182, 0, 0) ;
+}
+
+#pros{
+  color: rgb(0, 151, 20) ;
 }
